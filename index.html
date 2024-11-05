@@ -9,8 +9,46 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="manifest" href="manifest.json"/>
     <link rel="icon" href="favicon.png" />
+    <style>
+      
+        .header-fixa {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fa88f0;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            z-index: 1000;
+        }
+
+        .header-fixa a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        .header-fixa a:hover {
+            color: #000000;
+        }
+
+       
+        .conteudo {
+            padding-top: 100px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>ola</h1>
+    <div class="header-fixa">
+        <a href="massas.html"><h1>Massas</h1></a>
+        <a href="doces.html"><h1>Doces</h1></a>
+        <a href="carnes.html"><h1>Carnes</h1></a>
+    </div>
 </body>
 </html>

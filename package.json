@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "serve": "serve ."
+    "serve": "serve ."
   },
   "author": "Heloisa e Lohana",
   "license": "ISC",
   "dependencies": {
+    "projeto-receita": "file:",
     "serve": "^14.2.4"
   }
 }
