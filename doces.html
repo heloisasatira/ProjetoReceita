@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" href="images/sonic.png" />
     <meta name="theme-color" content="white"/>
-    <title>Receitas</title>
+    <title>Receitas de Doces</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="manifest" href="manifest.json"/>
     <link rel="icon" href="favicon.png" />
     <style>
-      
         .header-fixa {
             position: fixed;
             top: 0;
@@ -36,7 +35,27 @@
         .header-fixa a:hover {
             color: #000000;
         }
-
+      
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 60px; 
+        }
+        
+        .column {
+            flex: 1 1 30%;
+            max-width: 30%;
+            margin: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -45,6 +64,44 @@
         <a href="massas.html"><h1>Massas</h1></a>
         <a href="doces.html"><h1>Doces</h1></a>
         <a href="carnes.html"><h1>Carnes</h1></a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="images/bolo.jpg" class="img" alt="Bolo de Chocolate">
+            <h2>Bolo de Chocolate</h2>
+            <p>Uma receita clássica e irresistível de bolo de chocolate com cobertura cremosa. Perfeita para todas as ocasiões.</p>
+        </div>
+    
+        <div class="column">
+            <img src="images/pudim.jpg" class="img" alt="Pudim de Leite Condensado">
+            <h2>Pudim de Leite Condensado</h2>
+            <p>Uma sobremesa cremosa e fácil de fazer, com calda de caramelo que derrete na boca.</p>
+        </div>
+    
+        <div class="column">
+            <img src="images/torta-de-morango.jpg" class="img" alt="Torta de Morango">
+            <h2>Torta de Morango</h2>
+            <p>Deliciosa torta com massa crocante e recheio de creme, coberta com morangos frescos.</p>
+        </div>
+    
+        <div class="column">
+            <img src="images/brigadeiro.jpg" class="img" alt="Brigadeiro">
+            <h2>Brigadeiro</h2>
+            <p>Um docinho brasileiro feito de chocolate e leite condensado, enrolado e coberto com granulado.</p>
+        </div>
+    
+        <div class="column">
+            <img src="images/cupcake-baunilha.jpg" class="img" alt="Cupcake de Baunilha">
+            <h2>Cupcake de Baunilha</h2>
+            <p>Cupcakes fofinhos e saborosos de baunilha com cobertura de buttercream.</p>
+        </div>
+    
+        <div class="column">
+            <img src="images/mousse.jpg" class="img" alt="Mousse de Maracujá">
+            <h2>Mousse de Maracujá</h2>
+            <p>Uma mousse refrescante e leve de maracujá, perfeita para dias quentes.</p>
+        </div>
     </div>
 </body>
 </html>
