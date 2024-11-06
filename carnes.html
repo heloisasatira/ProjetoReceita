@@ -10,13 +10,13 @@
     <link rel="manifest" href="manifest.json"/>
     <link rel="icon" href="favicon.png" />
     <style>
-      
-        .header-fixa {
+  .header-fixa {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             background-color: #6164ff;
+       
             color: #fff;
             padding: 10px;
             text-align: center;
@@ -36,7 +36,27 @@
         .header-fixa a:hover {
             color: #000000;
         }
+      
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 60px; 
+        }
 
+        .column {
+            flex: 1 1 30%;
+            max-width: 30%;
+            margin: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -47,5 +67,122 @@
         <a href="carnes.html"><h1>Carnes</h1></a>
     </div>
 
+    <div class="row">
+        <div class="column">
+            <img src="images/picanha.jpeg" class="img" alt="Picanha do Lula">
+            <h2>Picanha do Lula</h2>
+            <p>Uma deliciosa picanha grelhada com tempero especial, perfeita para um churrasco!</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>1 peça de picanha (aproximadamente 1 kg)</li>
+                    <li>Sal grosso a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>4 dentes de alho picados</li>
+                    <li>1/4 de xícara de azeite de oliva</li>
+                    <li>1 raminho de alecrim (opcional)</li>
+                    <li>Limão para servir</li>
+                </ul>
+                <ol>
+                    <li>Retire a picanha da geladeira e deixe em temperatura ambiente por 30 minutos.</li>
+                    <li>Em uma tigela, misture o azeite, alho, sal e pimenta, e tempere a picanha.</li>
+                    <li>Preaqueça a churrasqueira em fogo alto e grelhe a picanha com a gordura para cima por 10-15 minutos.</li>
+                    <li>Vire a picanha e grelhe por mais 10-15 minutos, conforme o ponto desejado.</li>
+                    <li>Deixe descansar por 10 minutos antes de cortar.</li>
+                    <li>Corte em fatias e sirva com limão espremido.</li>
+                </ol>
+            </div>
+        </div>
+        
+
+        <div class="column">
+            <img src="images/frang.jpg" class="img" alt="Frango Grelhado">
+            <h2>Frango Grelhado com Limão</h2>
+            <p>Frango marinado e grelhado, perfeito para um almoço leve e saboroso.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>4 filés de peito de frango</li>
+                    <li>2 limões (suco e raspas)</li>
+                    <li>2 dentes de alho picados</li>
+                    <li>1 colher de sopa de azeite</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <ol>
+                    <li>Em uma tigela, misture o suco de limão, raspas, alho, azeite, sal e pimenta.</li>
+                    <li>Coloque os filés na marinada e deixe por pelo menos 30 minutos.</li>
+                    <li>Grelhe os filés em uma frigideira quente por 6-7 minutos de cada lado.</li>
+                    <li>Sirva com salada ou legumes grelhados.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="images/carne.jpg" class="img" alt="Carne de Panela">
+            <h2>Carne de Panela</h2>
+            <p>Uma receita caseira, ideal para o almoço de domingo.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>1 kg de carne de segunda cortada em cubos</li>
+                    <li>2 cenouras em rodelas</li>
+                    <li>1 cebola picada</li>
+                    <li>2 dentes de alho picados</li>
+                    <li>4 xícaras de caldo de carne</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <ol>
+                    <li>Em uma panela de pressão, aqueça um pouco de óleo e doure a carne.</li>
+                    <li>Adicione a cebola e o alho, refogando até ficarem macios.</li>
+                    <li>Coloque as cenouras, o caldo de carne, sal e pimenta.</li>
+                    <li>Cozinhe na pressão por cerca de 30 minutos.</li>
+                    <li>Deixe sair a pressão, verifique o tempero e sirva com arroz.</li>
+                </ol>
+            </div>
+        </div>
+
+       
+        <div class="column">
+            <img src="images/espetinho.jpg" class="img" alt="Espetinho de Carne">
+            <h2>Espetinho de Carne</h2>
+            <p>Espetinhos deliciosos, ideais para um lanche ou reunião.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>500g de carne bovina em cubos</li>
+                    <li>1 cebola cortada em pedaços</li>
+                    <li>1 pimentão cortado em pedaços</li>
+                    <li>Sal, pimenta e temperos a gosto</li>
+                    <li>Palitos de churrasco</li>
+                </ul>
+                <ol>
+                    <li>Tempere a carne com sal, pimenta e seus temperos favoritos.</li>
+                    <li>Monte os espetinhos alternando carne, cebola e pimentão.</li>
+                    <li>Grelhe em fogo médio por 10-15 minutos, virando para assar por igual.</li>
+                    <li>Sirva com molho de sua preferência.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="images/bife.jpg" class="img" alt="Bife Ancho">
+            <h2>Bife Ancho</h2>
+            <p>Um bife suculento, ideal para um jantar especial.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>2 bifes ancho de aproximadamente 300g cada</li>
+                    <li>Sal e pimenta a gosto</li>
+                    <li>2 colheres de sopa de manteiga</li>
+                    <li>1 raminho de alecrim</li>
+                </ul>
+                <ol>
+                    <li>Tempere os bifes com sal e pimenta.</li>
+                    <li>Em uma frigideira quente, derreta a manteiga e adicione o alecrim.</li>
+                    <li>Grelhe os bifes por 4-5 minutos de cada lado, para mal passado.</li>
+                    <li>Deixe descansar antes de servir.</li>
+                </ol>
+            </div>
+    </div>
 </body>
 </html>
