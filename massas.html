@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" href="images/sonic.png" />
     <meta name="theme-color" content="white"/>
-    <title>Receitas</title>
+    <title>Receitas de Massas</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="manifest" href="manifest.json"/>
     <link rel="icon" href="favicon.png" />
     <style>
-      
         .header-fixa {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            background-color: #9cff84;
+            background-color: #ffbb61;
             color: #fff;
             padding: 10px;
             text-align: center;
@@ -36,7 +35,27 @@
         .header-fixa a:hover {
             color: #000000;
         }
+      
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 60px; 
+        }
 
+        .column {
+            flex: 1 1 30%;
+            max-width: 30%;
+            margin: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -46,5 +65,79 @@
         <a href="doces.html"><h1>Doces</h1></a>
         <a href="carnes.html"><h1>Carnes</h1></a>
     </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="images/macarrao.jpg" class="img" alt="Macarrão à Carbonara">
+            <h2>Macarrão à Carbonara</h2>
+            <p>Uma receita clássica e deliciosa de macarrão cremoso com ovos e queijo parmesão.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>250g de macarrão espaguete</li>
+                    <li>100g de pancetta ou bacon</li>
+                    <li>2 ovos</li>
+                    <li>50g de queijo parmesão ralado</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <ol>
+                    <li>Cozinhe o macarrão em água salgada até ficar al dente.</li>
+                    <li>Enquanto o macarrão cozinha, frite a pancetta até ficar crocante.</li>
+                    <li>Em uma tigela, bata os ovos com o queijo parmesão e tempere com sal e pimenta.</li>
+                    <li>Escorra o macarrão e misture imediatamente com os ovos batidos e a pancetta quente.</li>
+                    <li>Sirva com mais queijo parmesão e pimenta-do-reino a gosto.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="images/lasanha.jpg" class="img" alt="Lasanha de Carne">
+            <h2>Lasanha de Carne</h2>
+            <p>Camadas de massa, carne moída e queijo derretido, uma combinação irresistível.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>500g de carne moída</li>
+                    <li>1 pacote de massa de lasanha pré-cozida</li>
+                    <li>2 xícaras de molho de tomate</li>
+                    <li>1 xícara de queijo muçarela ralado</li>
+                    <li>1/2 xícara de queijo parmesão ralado</li>
+                    <li>1 cebola picada</li>
+                    <li>1 dente de alho picado</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <ol>
+                    <li>Refogue a cebola e o alho, adicione a carne moída e cozinhe até dourar.</li>
+                    <li>Adicione o molho de tomate e tempere com sal e pimenta. Deixe cozinhar por 15 minutos.</li>
+                    <li>Monte a lasanha em camadas: comece com o molho de carne, depois a massa e o queijo.</li>
+                    <li>Repita as camadas até terminar os ingredientes, finalizando com queijo parmesão.</li>
+                    <li>Asse em forno preaquecido a 180°C por 30-40 minutos ou até borbulhar e dourar.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="images/nhoque.jpg" class="img" alt="Nhoque de Batata">
+            <h2>Nhoque de Batata</h2>
+            <p>Uma receita de nhoque caseiro, leve e macio, servido com molho de sua escolha.</p>
+            <div class="ingredientes">
+                <h3>Ingredientes e modo de preparo:</h3>
+                <ul>
+                    <li>1kg de batata</li>
+                    <li>2 xícaras de farinha de trigo</li>
+                    <li>1 ovo</li>
+                    <li>Sal a gosto</li>
+                    <li>Molho de tomate a gosto</li>
+                </ul>
+                <ol>
+                    <li>Cozinhe as batatas até ficarem macias e depois amasse bem.</li>
+                    <li>Adicione o ovo, a farinha de trigo e o sal, e misture até formar uma massa homogênea.</li>
+                    <li>Modele os nhoques e cozinhe em água salgada até que subam à superfície.</li>
+                    <li>Escorra e sirva com o molho de tomate ou de sua preferência.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
